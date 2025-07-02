@@ -10,6 +10,6 @@ int main(){
         remainder = (remainder * 10) + digit;
         num /= 10;
     }
-    printf("Reverse order of %d is %d", original, remainder);
+    printf("Reverse order of %d = %d", original, remainder);
     return 0;
 }
