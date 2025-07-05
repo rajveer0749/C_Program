@@ -11,9 +11,9 @@ int main(){
         num /= 10;
     }
     if(original == remainder){
-        printf("%d is a Palindrome Number", original);
+        printf("%d is Palindrome Number", original);
     }else{
-        printf("%d is not a Palindrome Number", original);
+        printf("%d is not Palindrome Number", original);
     }
     return 0;
 }
