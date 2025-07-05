@@ -2,9 +2,10 @@
 
 int main(){
     int num, original, remainder = 0;
-    printf("Enter a number: ");
+    printf("Enter the number: ");
     scanf("%d", &num);
     original = num; 
+    
     while(num != 0){
         int digit = num % 10;
         remainder = (remainder * 10) + digit;
