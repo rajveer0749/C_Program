@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
 
@@ -23,8 +23,7 @@ bool searchElementInTree(struct Tree* root, int element){
     if(root->data == element){
         return true;
     }
-    return searchElementInTree(root->left, element);
-    return searchElementInTree(root->right, element);
+    return searchElementInTree(root->left, element) || searchElementInTree(root->right, element);
 }
 
 int main(){
